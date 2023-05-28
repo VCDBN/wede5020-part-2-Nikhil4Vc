@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    position: absolute;
+}
+
+@media only screen and (max-width: 480px){
+    html, body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .Middle{
+        padding: 5px;
+        width: 100vw;
+        height: 300vh; 
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .Middle{
+        padding: 5px;
+        width: 100vw;
+        height: 250vh;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    #ProjVid2 {
+        float: right;
+}
+}
+
+@media only screen and (min-width: 600px){
+    #Projvid3 {
+        float: left;
+}
+}
+
+.Header {
+    background-color: black;
+    padding: 10px;
+    color: aqua;
+    font-style: italic;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0fr 6fr 1fr;
+    column-gap: 5px;
+
+}
+
+
+.Topnav {
+    background-color: black;
+}
+
+
+.Topnav a {
+    color: red;
+    padding: 12px 12px;
+    text-decoration: underline red;
+}
+
+
+.Topnav a:hover {
+    background-color: antiquewhite;
+}
+
+
+.Middle {
+    margin: 0;
+}
+
+.Project1{
+   margin: 0;
+
+}
+
+.Project2{
+    margin: 0;
+}
+
+.Project3{
+    margin: 0;
+}
+
+.Project4{
+    margin: 0;
+}
+
+#ProjVid2 {
+    margin: 0;
+}
+
+#Projvid3 {
+    margin: 0;
+}
+
+.Footer {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+
+    

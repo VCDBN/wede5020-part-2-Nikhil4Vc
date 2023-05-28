@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+
+    <style>
+        img {
+            text-align: left;
+
+        }
+
+
+        h1 {
+            text-align: center;
+            text-decoration: underline aqua;
+        }
+
+
+        h2 {
+            text-align: center;
+            text-decoration: underline aqua;
+
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <script src="Contact.js"></script>
+
+    <div class="Header">
+        <div class="Logo">
+            <img src="Images/Freedom to everyone.jpg" alt="Logo" width="200" height="150">
+        </div>
+        <div class="Slogan">
+            <h1>Technology to everyone</h1>
+            <h2>Contact us</h2>
+        </div>
+    </div>
+
+
+    <div class="Topnav">
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Contact.html">Contact us</a>
+            <a href="About.html">About</a>
+        </nav>
+
+    </div>
+
+   
+    <div class="Middle">
+        <video autoplay muted loop src="Videos/Contact us Today.mp4" id="ContactVid"></video>
+        <br>
+        <h4 style="font-size: xx-large; font-weight: bold;">Contact</h4>
+        <h3 style="font-size: larger; font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">If you've got any queries or concerns, please drop us a line and we'll get back to you in the quickest time imaginable!</h3>
+        <p style="font-size: larger; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Office address:</p>
+        <br>
+        Building C
+        <br>
+        1882 Bodenstein St
+        <br>
+        Boksburg
+        <br>
+        Gauteng
+        <br>
+        1446
+        <br>
+        <p style="font-size: large; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Contact no: 082 904 7253 </p>
+        <br>
+        <p style="font-size: larger; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">You can call, email us or fill in the form below.</p>
+        <br>
+        <p style="font-size: large; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Your Info</p>
+        <br>
+        <label id="Namelabel" style="font-size: medium; font-weight: bold;" for="Name">Name:</label>
+        <input style="margin-bottom: 10px;" type="text" id="Name" required>
+        <br>
+        <label id="Surnamelabel" style="font-size: medium; font-weight: bold;" for="Surname">Surname:</label>
+        <input style="margin-bottom: 10px;" type="text" id="Surname" required>
+        <br>
+        <label id="Emaillabel" style="font-size: medium; font-weight: bold;" for="Email">Email address:</label>
+        <input style="margin-bottom: 10px;"  type="text" id="Email" required>
+        <br>
+        <label id="Contactlabel" style="font-size: medium; font-weight: bold;" for="Contact">Contact number:</label>
+        <input type="text" id="Contact" required>
+        <br>
+        <button id="BtnContact" type="button" onclick= "getInputValue();";>Submit</button>
+        <script>
+          function getInputValue(){ 
+            var inputValName = document.getElementById("Name").value='';
+            var inputValSurname = document.getElementById("Surname").value='';
+            var inputValEmail = document.getElementById("Email").value='';
+            var inputValContact = document.getElementById("Contact").value='';
+             
+  }
+ 
+        </script>
+        <br>
+        <p style="font-size: large; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Email: EveryoneOnline123@gmail.com</p>
+
+
+    </div>
+
+
+    <div class="Footer">
+        <img src="Images/Technology to everyone.jpg" alt="Slogan" width="200" height="200">
+        <p>Everyone online is a Non-Profit organisation</p>
+        <p>@Everyone Online Copyright 2023</p>
+        <p>http://127.0.0.1:5500/Contact.html</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

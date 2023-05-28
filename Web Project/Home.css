@@ -1,0 +1,91 @@
+body {
+        margin: 0;
+        position: absolute;
+}
+
+@media only screen and (max-width: 480px){
+        html, body{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+        }
+}
+
+.Header {
+        background-color: black;
+        padding: 10px;
+        color: aqua;
+        font-style: italic;
+        text-align: center;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 0fr 6fr 1fr;
+        column-gap: 5px;
+}
+
+
+.Topnav {
+        background-color: black;
+
+}
+
+
+.Topnav a {
+        color: red;
+        padding: 12px 12px;
+        text-decoration-line: underline red;
+
+}
+
+
+.Topnav a:hover {
+        background-color: antiquewhite;
+
+}
+
+
+.Middle {
+        padding: 10px;
+        height: 300vh;
+        width: 100vw;
+}
+
+
+.Footer {
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        color: red;
+}
+
+@media only screen and (min-width: 600px){
+        #AboutHomeVid {
+            float: left;
+    }
+    }
+
+.ProjectsHome {
+        padding: 5px;
+        border: 5px solid rgb(127, 15, 213);
+        display: grid;
+
+}
+
+.AboutHome {
+        padding: 5px;
+        border: 5px solid rgb(11, 168, 235);
+        display: grid;
+}
+
+.HomeContact {
+        padding: 5px;
+        border: 5px solid red;
+        display: grid;
+}
+
+.HomeGallery {
+        padding: 5px;
+        border: 5px solid rgb(228, 92, 8);
+        display: grid;
+}
